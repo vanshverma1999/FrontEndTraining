@@ -1,0 +1,17 @@
+<div>
+    <h1 align="center">Tabular Data for the given json url</h1>
+    <table border="1">
+        <tr>
+            <td>userId</td>
+            <td>id</td>
+            <td>title</td>
+            <td>body</td>
+        </tr>
+        <tr *ngFor="let d of data">
+            <td>{{d.userId}}</td>
+            <td>{{d.id}}</td>
+            <td>{{d.title}}</td>
+            <td>{{d.body}}</td>
+        </tr>
+    </table>
+</div>
